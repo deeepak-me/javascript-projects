@@ -4,7 +4,22 @@
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1517430407819-c1eb68284cf1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxkZWNlbWJlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500);
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+
+.countdown-container {
+    display: flex;
 }
