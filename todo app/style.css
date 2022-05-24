@@ -15,3 +15,20 @@ h1 {
     text-align: center;
     opacity: 0.4;
 }
+
+form {
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+}
+
+.input {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #b5b5b5;
+}
