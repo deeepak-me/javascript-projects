@@ -27,9 +27,18 @@ body {
     padding: 4rem;
 }
 
+h2 {
+    margin: 1rem 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
 }
 
 button {
@@ -38,7 +47,12 @@ button {
     border: none;
     display: block;
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     width: 100%;
-    padding: 2rem;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #732d91;
 }
