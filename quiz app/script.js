@@ -43,6 +43,7 @@ const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
 const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
+const submitBtn = document.getElementById('submit');
 
 let currentQuiz = 0;
 
@@ -58,6 +59,19 @@ function loadQuiz() {
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
 
-
-    currentQuestion++;
 }
+
+submitBtn.addEventListener('click', () => {
+
+    currentQuiz++;
+
+    if (currentQuiz < quisData.length) {
+
+        loadQuiz();
+
+    } else {
+        alert('yiou finished');
+    }
+
+
+});
